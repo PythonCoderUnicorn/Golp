@@ -31,10 +31,10 @@ Go variables examples: string | int | float | bool
 - - - - - - - - - - - - - - - - - - - - - - - - - -			
 `)
 		} else if choice == 9 {
-			fmt.Println(" Exiting Golp \n")
+			fmt.Print(" Exiting Golp \n")
 			break
 		} else {
-			fmt.Println(" not an option \n")
+			fmt.Print(" not an option - \n")
 			return
 		}
 
